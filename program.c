@@ -30,6 +30,7 @@ int main() {
     myStack.top = -1;
 
     char polInp[SIZE];
+    printf("Enter a polish notation sequence with spaces between the numbers and operators, the calculator works with ints and will round accordingly.\nExample:(12 12 + 2 * 3 -)\n: ");
     fgets(polInp, SIZE, stdin);
     size_t length = strlen(polInp);
     
